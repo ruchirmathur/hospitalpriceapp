@@ -1,240 +1,1374 @@
-
 {
-    "hospitalName":"hospital",
+    "hospitalName": "hospital",
     "value": [
         {
             "Modifiers": "Test",
             "Location": {
                 "type": "Point",
                 "coordinates": [
-                    34.99,
-                    -1223
+                    37.436010,
+                    -122.176230
                 ]
             },
             "Address": {
                 "Country": "USA",
-                "PostalCode": "94538",
-                "StreetAddress": "2000 Mowry Avenue",
-                "City": "Fremont",
+                "PostalCode": "94304",
+                "StreetAddress": "875 Blake Wilbur Dr",
+                "City": "Palo Alto",
                 "StateProvince": "CA"
             },
-            "StandardChargeContractingMethod": "Test",
-            "StandardChargeWithoutInsuranceWithDiscounts": "1133",
-            "StandardChargeWithInsurancePercentage": "2233",
-            "StandardChargeWithInsurance": "1212",
+            "StandardChargeContractingMethod": "capitation",
+            "StandardChargeWithoutInsuranceWithDiscounts": "$ 1000",
+            "StandardChargeWithInsurancePercentage": "10%",
+            "StandardChargeWithInsurance": "$ 900",
             "MedicalCodeTypeCode": "CPT",
-            "StandardChargeWithoutInsurance": "222",
+            "StandardChargeWithoutInsurance": "$1000",
             "DrugUnitOfMeasurement": "22",
             "DrugTypeOfMeasurement": "GR",
             "Description": "Diabetes",
-            "LastUpdatedDate": null,
-            "Rating": 222,
-            "Minimum": 2222,
-            "MedicalCode": "646464",
+            "LastUpdatedDate": "1/1/2023",
+            "Rating": 3.5,
+            "Minimum": "$ 1000",
+            "MedicalCode": "92014",
             "BillingClass": "Facility",
-            "PlanName": "Anthem",
-            "HospitalName": "hospital",
+            "PlanName": "Anthem PPO",
+            "HospitalName": "Stanford Medical",
             "Payer": "Anthem",
-            "AdmissionType": "inpatient",
+            "AdmissionType": "Inpatient",
             "HospitalId": "1",
             "AncilliaryService": [
-                "Blood Test",
-                "Lipid Profile"
+                "Fasting Blood Sugar Test",
+                "Glucose Tolerance Test",
+                "Glucose Screening Test"
             ]
-        },{
+        },
+        {
             "Modifiers": "Test",
             "Location": {
                 "type": "Point",
                 "coordinates": [
-                    34.99,
-                    -1223
+                    37.436010,
+                    -122.176230
                 ]
             },
             "Address": {
                 "Country": "USA",
-                "PostalCode": "94538",
-                "StreetAddress": "2000 Mowry Avenue",
-                "City": "Fremont",
+                "PostalCode": "94304",
+                "StreetAddress": "875 Blake Wilbur Dr",
+                "City": "Palo Alto",
                 "StateProvince": "CA"
             },
-            "StandardChargeContractingMethod": "Test",
-            "StandardChargeWithoutInsuranceWithDiscounts": "1133",
-            "StandardChargeWithInsurancePercentage": "2233",
-            "StandardChargeWithInsurance": "1212",
+            "StandardChargeContractingMethod": "capitation",
+            "StandardChargeWithoutInsuranceWithDiscounts": "$ 789",
+            "StandardChargeWithInsurancePercentage": "19%",
+            "StandardChargeWithInsurance": "$ 1200",
             "MedicalCodeTypeCode": "CPT",
-            "StandardChargeWithoutInsurance": "222",
+            "StandardChargeWithoutInsurance": "$ 1234",
             "DrugUnitOfMeasurement": "22",
             "DrugTypeOfMeasurement": "GR",
             "Description": "Diabetes",
-            "LastUpdatedDate": null,
-            "Rating": 222,
-            "Minimum": 2222,
-            "MedicalCode": "646464",
+            "LastUpdatedDate": "4/1/2023",
+            "Rating": 1.5,
+            "Minimum": "$ 1000",
+            "MedicalCode": "92014",
             "BillingClass": "Facility",
-            "PlanName": "Anthem",
-            "HospitalName": "hospital",
-            "Payer": "Anthem",
-            "AdmissionType": "inpatient",
+            "PlanName": "CIGNA PPO",
+            "HospitalName": "Stanford Medical",
+            "Payer": "CIGNA",
+            "AdmissionType": "Inpatient",
             "HospitalId": "2",
             "AncilliaryService": [
-                "Blood Test",
-                "Lipid Profile"
+                "Fasting Blood Sugar Test",
+                "Glucose Tolerance Test",
+                "Glucose Screening Test"
             ]
-        },{
+        },
+        {
             "Modifiers": "Test",
             "Location": {
                 "type": "Point",
                 "coordinates": [
-                    34.99,
-                    -1223
+                    37.436010,
+                    -122.176230
                 ]
             },
             "Address": {
                 "Country": "USA",
-                "PostalCode": "94538",
-                "StreetAddress": "2000 Mowry Avenue",
-                "City": "Fremont",
+                "PostalCode": "94304",
+                "StreetAddress": "875 Blake Wilbur Dr",
+                "City": "Palo Alto",
                 "StateProvince": "CA"
             },
-            "StandardChargeContractingMethod": "Test",
-            "StandardChargeWithoutInsuranceWithDiscounts": "1133",
-            "StandardChargeWithInsurancePercentage": "2233",
-            "StandardChargeWithInsurance": "1212",
+            "StandardChargeContractingMethod": "capitation",
+            "StandardChargeWithoutInsuranceWithDiscounts": "$ 567",
+            "StandardChargeWithInsurancePercentage": "7%",
+            "StandardChargeWithInsurance": "$ 454",
             "MedicalCodeTypeCode": "CPT",
-            "StandardChargeWithoutInsurance": "222",
+            "StandardChargeWithoutInsurance": "$ 345",
             "DrugUnitOfMeasurement": "22",
             "DrugTypeOfMeasurement": "GR",
             "Description": "Diabetes",
-            "LastUpdatedDate": null,
-            "Rating": 222,
-            "Minimum": 2222,
-            "MedicalCode": "646464",
+            "LastUpdatedDate": "4/9/2023",
+            "Rating": 1.5,
+            "Minimum": "$ 1000",
+            "MedicalCode": "92014",
             "BillingClass": "Facility",
-            "PlanName": "Anthem",
-            "HospitalName": "hospital",
-            "Payer": "Anthem",
-            "AdmissionType": "inpatient",
+            "PlanName": "Platinum PPO",
+            "HospitalName": "Stanford Medical",
+            "Payer": "Blue Shield of California",
+            "AdmissionType": "Inpatient",
             "HospitalId": "3",
             "AncilliaryService": [
-                "Blood Test",
-                "Lipid Profile"
+                "Fasting Blood Sugar Test",
+                "Glucose Tolerance Test",
+                "Glucose Screening Test"
             ]
-        },{
+        },
+        {
             "Modifiers": "Test",
             "Location": {
                 "type": "Point",
                 "coordinates": [
-                    34.99,
-                    -1223
+                    37.436010,
+                    -122.176230
                 ]
             },
             "Address": {
                 "Country": "USA",
-                "PostalCode": "94538",
-                "StreetAddress": "2000 Mowry Avenue",
-                "City": "Fremont",
+                "PostalCode": "94304",
+                "StreetAddress": "875 Blake Wilbur Dr",
+                "City": "Palo Alto",
                 "StateProvince": "CA"
             },
-            "StandardChargeContractingMethod": "Test",
-            "StandardChargeWithoutInsuranceWithDiscounts": "1133",
-            "StandardChargeWithInsurancePercentage": "2233",
-            "StandardChargeWithInsurance": "1212",
+            "StandardChargeContractingMethod": "capitation",
+            "StandardChargeWithoutInsuranceWithDiscounts": "$ 900",
+            "StandardChargeWithInsurancePercentage": "19%",
+            "StandardChargeWithInsurance": "$ 2000",
             "MedicalCodeTypeCode": "CPT",
-            "StandardChargeWithoutInsurance": "222",
+            "StandardChargeWithoutInsurance": "$ 3421",
             "DrugUnitOfMeasurement": "22",
             "DrugTypeOfMeasurement": "GR",
             "Description": "Diabetes",
-            "LastUpdatedDate": null,
-            "Rating": 222,
-            "Minimum": 2222,
-            "MedicalCode": "646464",
+            "LastUpdatedDate": "4/1/2023",
+            "Rating": 1.5,
+            "Minimum": "$ 1000",
+            "MedicalCode": "92014",
             "BillingClass": "Facility",
-            "PlanName": "Anthem",
+            "PlanName": "Kaiser HMO",
             "HospitalName": "hospital",
-            "Payer": "Anthem",
-            "AdmissionType": "inpatient",
+            "Payer": "Kaiser",
+            "AdmissionType": "Inpatient",
             "HospitalId": "4",
             "AncilliaryService": [
-                "Blood Test",
-                "Lipid Profile"
+                "Fasting Blood Sugar Test",
+                "Glucose Tolerance Test",
+                "Glucose Screening Test"
             ]
-        },{
+        },
+        {
             "Modifiers": "Test",
             "Location": {
                 "type": "Point",
                 "coordinates": [
-                    34.99,
-                    -1223
+                    37.436010,
+                    -122.176230
                 ]
             },
             "Address": {
                 "Country": "USA",
-                "PostalCode": "94538",
-                "StreetAddress": "2000 Mowry Avenue",
-                "City": "Fremont",
+                "PostalCode": "94304",
+                "StreetAddress": "875 Blake Wilbur Dr",
+                "City": "Palo Alto",
                 "StateProvince": "CA"
             },
-            "StandardChargeContractingMethod": "Test",
-            "StandardChargeWithoutInsuranceWithDiscounts": "1133",
-            "StandardChargeWithInsurancePercentage": "2233",
-            "StandardChargeWithInsurance": "1212",
+            "StandardChargeContractingMethod": "case rate",
+            "StandardChargeWithoutInsuranceWithDiscounts": "$ 1133",
+            "StandardChargeWithInsurancePercentage": "$ 2233",
+            "StandardChargeWithInsurance": "$ 1212",
             "MedicalCodeTypeCode": "CPT",
-            "StandardChargeWithoutInsurance": "222",
+            "StandardChargeWithoutInsurance": "$ 222",
             "DrugUnitOfMeasurement": "22",
             "DrugTypeOfMeasurement": "GR",
-            "Description": "Diabetes",
+            "Description": "Cardiology",
             "LastUpdatedDate": null,
-            "Rating": 222,
-            "Minimum": 2222,
-            "MedicalCode": "646464",
+            "Rating": 2.4,
+            "Minimum": "$ 222",
+            "MedicalCode": "92920",
             "BillingClass": "Facility",
-            "PlanName": "Anthem",
-            "HospitalName": "hospital",
-            "Payer": "Anthem",
-            "AdmissionType": "inpatient",
+            "PlanName": "Platinum PPO",
+            "HospitalName": "Stanford Medical",
+            "Payer": "Blue Shield of California",
+            "AdmissionType": "Outpatient",
             "HospitalId": "5",
             "AncilliaryService": [
-                "Blood Test",
-                "Lipid Profile"
+                "Fasting Blood Sugar Test",
+                "Glucose Tolerance Test",
+                "Glucose Screening Test"
+            ]
+        }, {
+            "Modifiers": "Test",
+            "Location": {
+                "type": "Point",
+                "coordinates": [
+                    37.436010,
+                    -122.176230
+                ]
+            },
+            "Address": {
+                "Country": "USA",
+                "PostalCode": "94304",
+                "StreetAddress": "875 Blake Wilbur Dr",
+                "City": "Palo Alto",
+                "StateProvince": "CA"
+            },
+            "StandardChargeContractingMethod": "case rate",
+            "StandardChargeWithoutInsuranceWithDiscounts": "$ 1133",
+            "StandardChargeWithInsurancePercentage": "$ 2233",
+            "StandardChargeWithInsurance": "$ 1212",
+            "MedicalCodeTypeCode": "CPT",
+            "StandardChargeWithoutInsurance": "$ 222",
+            "DrugUnitOfMeasurement": "22",
+            "DrugTypeOfMeasurement": "GR",
+            "Description": "Cardiology",
+            "LastUpdatedDate": null,
+            "Rating": 2.4,
+            "Minimum": "$ 222",
+            "MedicalCode": "92920",
+            "BillingClass": "Facility",
+            "PlanName": "Aetna HMO",
+            "HospitalName": "Stanford Medical",
+            "Payer": "Aetna",
+            "AdmissionType": "Outpatient",
+            "HospitalId": "6",
+            "AncilliaryService": [
+                "Fasting Blood Sugar Test",
+                "Glucose Tolerance Test",
+                "Glucose Screening Test"
             ]
         },{
             "Modifiers": "Test",
             "Location": {
                 "type": "Point",
                 "coordinates": [
-                    34.99,
-                    -1223
+                    37.436010,
+                    -122.176230
+                ]
+            },
+            "Address": {
+                "Country": "USA",
+                "PostalCode": "94304",
+                "StreetAddress": "875 Blake Wilbur Dr",
+                "City": "Palo Alto",
+                "StateProvince": "CA"
+            },
+            "StandardChargeContractingMethod": "case rate",
+            "StandardChargeWithoutInsuranceWithDiscounts": "$ 1300",
+            "StandardChargeWithInsurancePercentage": "$ 1633",
+            "StandardChargeWithInsurance": "$ 1245",
+            "MedicalCodeTypeCode": "CPT",
+            "StandardChargeWithoutInsurance": "$ 873",
+            "DrugUnitOfMeasurement": "22",
+            "DrugTypeOfMeasurement": "GR",
+            "Description": "Cardiology",
+            "LastUpdatedDate": null,
+            "Rating": 2.4,
+            "Minimum": "$ 321",
+            "MedicalCode": "92920",
+            "BillingClass": "Facility",
+            "PlanName": "Aetna HMO",
+            "HospitalName": "Stanford Medical",
+            "Payer": "Aetna",
+            "AdmissionType": "Outpatient",
+            "HospitalId": "7",
+            "AncilliaryService": [
+                "Basic EKG",
+                "Stress Test",
+                "Echocardiography",
+                "Full Spectrum Cardiac Rhythm Event Monitoring",
+                "SPECT Myocardial Perfusion Imaging"
+            ]
+        },
+        {
+            "Modifiers": "Test",
+            "Location": {
+                "type": "Point",
+                "coordinates": [
+                    37.436010,
+                    -122.176230
+                ]
+            },
+            "Address": {
+                "Country": "USA",
+                "PostalCode": "94304",
+                "StreetAddress": "875 Blake Wilbur Dr",
+                "City": "Palo Alto",
+                "StateProvince": "CA"
+            },
+            "StandardChargeContractingMethod": "case rate",
+            "StandardChargeWithoutInsuranceWithDiscounts": "$ 3442",
+            "StandardChargeWithInsurancePercentage": "$ 1231",
+            "StandardChargeWithInsurance": "$ 1890",
+            "MedicalCodeTypeCode": "CPT",
+            "StandardChargeWithoutInsurance": "$ 234",
+            "DrugUnitOfMeasurement": "22",
+            "DrugTypeOfMeasurement": "GR",
+            "Description": "Cardiology",
+            "LastUpdatedDate": null,
+            "Rating": 2.4,
+            "Minimum": "$ 321",
+            "MedicalCode": "92920",
+            "BillingClass": "Facility",
+            "PlanName": "CIGNA PPO",
+            "HospitalName": "Stanford Medical",
+            "Payer": "CIGNA",
+            "AdmissionType": "Outpatient",
+            "HospitalId": "8",
+            "AncilliaryService": [
+                "Basic EKG",
+                "Stress Test",
+                "Echocardiography",
+                "Full Spectrum Cardiac Rhythm Event Monitoring",
+                "SPECT Myocardial Perfusion Imaging"
+            ]
+        },
+        {
+            "Modifiers": "Test",
+            "Location": {
+                "type": "Point",
+                "coordinates": [
+                    37.436010,
+                    -122.176230
+                ]
+            },
+            "Address": {
+                "Country": "USA",
+                "PostalCode": "94304",
+                "StreetAddress": "875 Blake Wilbur Dr",
+                "City": "Palo Alto",
+                "StateProvince": "CA"
+            },
+            "StandardChargeContractingMethod": "case rate",
+            "StandardChargeWithoutInsuranceWithDiscounts": "$ 3442",
+            "StandardChargeWithInsurancePercentage": "$ 1231",
+            "StandardChargeWithInsurance": "$ 1890",
+            "MedicalCodeTypeCode": "CPT",
+            "StandardChargeWithoutInsurance": "$ 234",
+            "DrugUnitOfMeasurement": "22",
+            "DrugTypeOfMeasurement": "GR",
+            "Description": "Cardiology",
+            "LastUpdatedDate": null,
+            "Rating": 2.4,
+            "Minimum": "$ 321",
+            "MedicalCode": "92920",
+            "BillingClass": "Facility",
+            "PlanName": "CIGNA HMO",
+            "HospitalName": "Stanford Medical",
+            "Payer": "CIGNA",
+            "AdmissionType": "Outpatient",
+            "HospitalId": "9",
+            "AncilliaryService": [
+                "Basic EKG",
+                "Stress Test",
+                "Echocardiography",
+                "Full Spectrum Cardiac Rhythm Event Monitoring",
+                "SPECT Myocardial Perfusion Imaging"
+            ]
+        },
+        {
+            "Modifiers": "Test",
+            "Location": {
+                "type": "Point",
+                "coordinates": [
+                    37.436010,
+                    -122.176230
+                ]
+            },
+            "Address": {
+                "Country": "USA",
+                "PostalCode": "94304",
+                "StreetAddress": "875 Blake Wilbur Dr",
+                "City": "Palo Alto",
+                "StateProvince": "CA"
+            },
+            "StandardChargeContractingMethod": "fee schedule",
+            "StandardChargeWithoutInsuranceWithDiscounts": "$ 5000",
+            "StandardChargeWithInsurancePercentage": "$ 3345",
+            "StandardChargeWithInsurance": "$ 4445",
+            "MedicalCodeTypeCode": "CPT",
+            "StandardChargeWithoutInsurance": "$ 4563",
+            "DrugUnitOfMeasurement": "22",
+            "DrugTypeOfMeasurement": "GR",
+            "Description": "Total knee replacement",
+            "LastUpdatedDate": null,
+            "Rating": 4.5,
+            "Minimum": "$ 1000",
+            "MedicalCode": "27445",
+            "BillingClass": "Facility",
+            "PlanName": "Anthem PPO",
+            "HospitalName": "Stanford Medical",
+            "Payer": "Anthem",
+            "AdmissionType": "Outpatient",
+            "HospitalId": "10",
+            "AncilliaryService": [
+                "Electrocardiography",
+                "Prothrombin Time Test (PT)",
+                "Erythrocyte Sedimentation Rate (ESR)",
+                "Albumin (Blood) Test"
+            ]
+        },
+        {
+            "Modifiers": "Test",
+            "Location": {
+                "type": "Point",
+                "coordinates": [
+                    37.436010,
+                    -122.176230
+                ]
+            },
+            "Address": {
+                "Country": "USA",
+                "PostalCode": "94304",
+                "StreetAddress": "875 Blake Wilbur Dr",
+                "City": "Palo Alto",
+                "StateProvince": "CA"
+            },
+            "StandardChargeContractingMethod": "fee schedule",
+            "StandardChargeWithoutInsuranceWithDiscounts": "$ 3000",
+            "StandardChargeWithInsurancePercentage": "$ 2345",
+            "StandardChargeWithInsurance": "$ 5445",
+            "MedicalCodeTypeCode": "CPT",
+            "StandardChargeWithoutInsurance": "$ 4563",
+            "DrugUnitOfMeasurement": "22",
+            "DrugTypeOfMeasurement": "GR",
+            "Description": "Total knee replacement",
+            "LastUpdatedDate": null,
+            "Rating": 4.5,
+            "Minimum": "$ 1000",
+            "MedicalCode": "27445",
+            "BillingClass": "Facility",
+            "PlanName": "BSC Platinum PPO",
+            "HospitalName": "Stanford Medical",
+            "Payer": "Blue Shield of California",
+            "AdmissionType": "Outpatient",
+            "HospitalId": "11",
+            "AncilliaryService": [
+                "Electrocardiography",
+                "Prothrombin Time Test (PT)",
+                "Erythrocyte Sedimentation Rate (ESR)",
+                "Albumin (Blood) Test"
+            ]
+        },
+        {
+            "Modifiers": "Test",
+            "Location": {
+                "type": "Point",
+                "coordinates": [
+                    37.557030,
+                    -121.980340
                 ]
             },
             "Address": {
                 "Country": "USA",
                 "PostalCode": "94538",
-                "StreetAddress": "2000 Mowry Avenue",
+                "StreetAddress": "2000 Mowry Ave",
                 "City": "Fremont",
                 "StateProvince": "CA"
             },
-            "StandardChargeContractingMethod": "Test",
-            "StandardChargeWithoutInsuranceWithDiscounts": "1133",
-            "StandardChargeWithInsurancePercentage": "2233",
-            "StandardChargeWithInsurance": "1212",
+            "StandardChargeContractingMethod": "capitation",
+            "StandardChargeWithoutInsuranceWithDiscounts": "$ 1400",
+            "StandardChargeWithInsurancePercentage": "10%",
+            "StandardChargeWithInsurance": "$ 500",
             "MedicalCodeTypeCode": "CPT",
-            "StandardChargeWithoutInsurance": "222",
+            "StandardChargeWithoutInsurance": "$1000",
             "DrugUnitOfMeasurement": "22",
             "DrugTypeOfMeasurement": "GR",
             "Description": "Diabetes",
-            "LastUpdatedDate": null,
-            "Rating": 222,
-            "Minimum": 2222,
-            "MedicalCode": "646464",
+            "LastUpdatedDate": "1/1/2023",
+            "Rating": 3.5,
+            "Minimum": "$ 1000",
+            "MedicalCode": "92014",
             "BillingClass": "Facility",
-            "PlanName": "Anthem",
-            "HospitalName": "hospital",
+            "PlanName": "Anthem PPO",
+            "HospitalName": "Washington Hospital",
             "Payer": "Anthem",
-            "AdmissionType": "inpatient",
-            "HospitalId": "6",
+            "AdmissionType": "Inpatient",
+            "HospitalId": "12",
             "AncilliaryService": [
-                "Blood Test",
-                "Lipid Profile"
+                "Fasting Blood Sugar Test",
+                "Glucose Tolerance Test",
+                "Glucose Screening Test"
+            ]
+        },
+        {
+            "Modifiers": "Test",
+            "Location": {
+                "type": "Point",
+                "coordinates": [
+                    37.557030,
+                    -121.980340
+                ]
+            },
+            "Address": {
+                "Country": "USA",
+                "PostalCode": "94538",
+                "StreetAddress": "2000 Mowry Ave",
+                "City": "Fremont",
+                "StateProvince": "CA"
+            },
+            "StandardChargeContractingMethod": "capitation",
+            "StandardChargeWithoutInsuranceWithDiscounts": "$ 789",
+            "StandardChargeWithInsurancePercentage": "19%",
+            "StandardChargeWithInsurance": "$ 1200",
+            "MedicalCodeTypeCode": "CPT",
+            "StandardChargeWithoutInsurance": "$ 1234",
+            "DrugUnitOfMeasurement": "22",
+            "DrugTypeOfMeasurement": "GR",
+            "Description": "Diabetes",
+            "LastUpdatedDate": "4/1/2023",
+            "Rating": 1.5,
+            "Minimum": "$ 1000",
+            "MedicalCode": "92014",
+            "BillingClass": "Facility",
+            "PlanName": "CIGNA PPO",
+            "HospitalName": "Washington Hospital",
+            "Payer": "CIGNA",
+            "AdmissionType": "Inpatient",
+            "HospitalId": "13",
+            "AncilliaryService": [
+                "Fasting Blood Sugar Test",
+                "Glucose Tolerance Test",
+                "Glucose Screening Test"
+            ]
+        },
+        {
+            "Modifiers": "Test",
+            "Location": {
+                "type": "Point",
+                "coordinates": [
+                    37.557030,
+                    -121.980340
+                ]
+            },
+            "Address": {
+                "Country": "USA",
+                "PostalCode": "94538",
+                "StreetAddress": "2000 Mowry Ave",
+                "City": "Fremont",
+                "StateProvince": "CA"
+            },
+            "StandardChargeContractingMethod": "capitation",
+            "StandardChargeWithoutInsuranceWithDiscounts": "$ 567",
+            "StandardChargeWithInsurancePercentage": "7%",
+            "StandardChargeWithInsurance": "$ 454",
+            "MedicalCodeTypeCode": "CPT",
+            "StandardChargeWithoutInsurance": "$ 345",
+            "DrugUnitOfMeasurement": "22",
+            "DrugTypeOfMeasurement": "GR",
+            "Description": "Diabetes",
+            "LastUpdatedDate": "4/9/2023",
+            "Rating": 1.5,
+            "Minimum": "$ 1000",
+            "MedicalCode": "92014",
+            "BillingClass": "Facility",
+            "PlanName": "Platinum PPO",
+            "HospitalName": "Washington Hospital",
+            "Payer": "Blue Shield of California",
+            "AdmissionType": "Inpatient",
+            "HospitalId": "14",
+            "AncilliaryService": [
+                "Fasting Blood Sugar Test",
+                "Glucose Tolerance Test",
+                "Glucose Screening Test"
+            ]
+        },
+        {
+            "Modifiers": "Test",
+            "Location": {
+                "type": "Point",
+                "coordinates": [
+                    37.557030,
+                    -121.980340
+                ]
+            },
+            "Address": {
+                "Country": "USA",
+                "PostalCode": "94538",
+                "StreetAddress": "2000 Mowry Ave",
+                "City": "Fremont",
+                "StateProvince": "CA"
+            },
+            "StandardChargeContractingMethod": "capitation",
+            "StandardChargeWithoutInsuranceWithDiscounts": "$ 900",
+            "StandardChargeWithInsurancePercentage": "19%",
+            "StandardChargeWithInsurance": "$ 2000",
+            "MedicalCodeTypeCode": "CPT",
+            "StandardChargeWithoutInsurance": "$ 3421",
+            "DrugUnitOfMeasurement": "22",
+            "DrugTypeOfMeasurement": "GR",
+            "Description": "Diabetes",
+            "LastUpdatedDate": "4/1/2023",
+            "Rating": 1.5,
+            "Minimum": "$ 1000",
+            "MedicalCode": "92014",
+            "BillingClass": "Facility",
+            "PlanName": "Kaiser HMO",
+            "HospitalName": "Washington Hospital",
+            "Payer": "Kaiser",
+            "AdmissionType": "Inpatient",
+            "HospitalId": "15",
+            "AncilliaryService": [
+                "Fasting Blood Sugar Test",
+                "Glucose Tolerance Test",
+                "Glucose Screening Test"
+            ]
+        },
+        {
+            "Modifiers": "Test",
+            "Location": {
+                "type": "Point",
+                "coordinates": [
+                    37.557030,
+                    -121.980340
+                ]
+            },
+            "Address": {
+                "Country": "USA",
+                "PostalCode": "94538",
+                "StreetAddress": "2000 Mowry Ave",
+                "City": "Fremont",
+                "StateProvince": "CA"
+            },
+            "StandardChargeContractingMethod": "case rate",
+            "StandardChargeWithoutInsuranceWithDiscounts": "$ 1133",
+            "StandardChargeWithInsurancePercentage": "$ 2233",
+            "StandardChargeWithInsurance": "$ 1212",
+            "MedicalCodeTypeCode": "CPT",
+            "StandardChargeWithoutInsurance": "$ 222",
+            "DrugUnitOfMeasurement": "22",
+            "DrugTypeOfMeasurement": "GR",
+            "Description": "Cardiology",
+            "LastUpdatedDate": null,
+            "Rating": 2.4,
+            "Minimum": "$ 222",
+            "MedicalCode": "92920",
+            "BillingClass": "Facility",
+            "PlanName": "Platinum PPO",
+            "HospitalName": "Washington Hospital",
+            "Payer": "Blue Shield of California",
+            "AdmissionType": "Outpatient",
+            "HospitalId": "16",
+            "AncilliaryService": [
+                "Fasting Blood Sugar Test",
+                "Glucose Tolerance Test",
+                "Glucose Screening Test"
+            ]
+        }, {
+            "Modifiers": "Test",
+            "Location": {
+                "type": "Point",
+                "coordinates": [
+                    37.557030,
+                    -121.980340
+                ]
+            },
+            "Address": {
+                "Country": "USA",
+                "PostalCode": "94538",
+                "StreetAddress": "2000 Mowry Ave",
+                "City": "Fremont",
+                "StateProvince": "CA"
+            },
+            "StandardChargeContractingMethod": "case rate",
+            "StandardChargeWithoutInsuranceWithDiscounts": "$ 1133",
+            "StandardChargeWithInsurancePercentage": "$ 2233",
+            "StandardChargeWithInsurance": "$ 1212",
+            "MedicalCodeTypeCode": "CPT",
+            "StandardChargeWithoutInsurance": "$ 222",
+            "DrugUnitOfMeasurement": "22",
+            "DrugTypeOfMeasurement": "GR",
+            "Description": "Cardiology",
+            "LastUpdatedDate": null,
+            "Rating": 2.4,
+            "Minimum": "$ 222",
+            "MedicalCode": "92920",
+            "BillingClass": "Facility",
+            "PlanName": "Aetna HMO",
+            "HospitalName": "Washington Hospital",
+            "Payer": "Aetna",
+            "AdmissionType": "Outpatient",
+            "HospitalId": "17",
+            "AncilliaryService": [
+                "Fasting Blood Sugar Test",
+                "Glucose Tolerance Test",
+                "Glucose Screening Test"
+            ]
+        },{
+            "Modifiers": "Test",
+            "Location": {
+                "type": "Point",
+                "coordinates": [
+                    37.557030,
+                    -121.980340
+                ]
+            },
+            "Address": {
+                "Country": "USA",
+                "PostalCode": "94538",
+                "StreetAddress": "2000 Mowry Ave",
+                "City": "Fremont",
+                "StateProvince": "CA"
+            },
+            "StandardChargeContractingMethod": "case rate",
+            "StandardChargeWithoutInsuranceWithDiscounts": "$ 1300",
+            "StandardChargeWithInsurancePercentage": "$ 1633",
+            "StandardChargeWithInsurance": "$ 1245",
+            "MedicalCodeTypeCode": "CPT",
+            "StandardChargeWithoutInsurance": "$ 873",
+            "DrugUnitOfMeasurement": "22",
+            "DrugTypeOfMeasurement": "GR",
+            "Description": "Cardiology",
+            "LastUpdatedDate": null,
+            "Rating": 2.4,
+            "Minimum": "$ 321",
+            "MedicalCode": "92920",
+            "BillingClass": "Facility",
+            "PlanName": "Aetna HMO",
+            "HospitalName": "Washington Hospital",
+            "Payer": "Aetna",
+            "AdmissionType": "Outpatient",
+            "HospitalId": "18",
+            "AncilliaryService": [
+                "Basic EKG",
+                "Stress Test",
+                "Echocardiography",
+                "Full Spectrum Cardiac Rhythm Event Monitoring",
+                "SPECT Myocardial Perfusion Imaging"
+            ]
+        },
+        {
+            "Modifiers": "Test",
+            "Location": {
+                "type": "Point",
+                "coordinates": [
+                    37.557030,
+                    -121.980340
+                ]
+            },
+            "Address": {
+                "Country": "USA",
+                "PostalCode": "94538",
+                "StreetAddress": "2000 Mowry Ave",
+                "City": "Fremont",
+                "StateProvince": "CA"
+            },
+            "StandardChargeContractingMethod": "case rate",
+            "StandardChargeWithoutInsuranceWithDiscounts": "$ 3442",
+            "StandardChargeWithInsurancePercentage": "$ 1231",
+            "StandardChargeWithInsurance": "$ 1890",
+            "MedicalCodeTypeCode": "CPT",
+            "StandardChargeWithoutInsurance": "$ 234",
+            "DrugUnitOfMeasurement": "22",
+            "DrugTypeOfMeasurement": "GR",
+            "Description": "Cardiology",
+            "LastUpdatedDate": null,
+            "Rating": 2.4,
+            "Minimum": "$ 321",
+            "MedicalCode": "92920",
+            "BillingClass": "Facility",
+            "PlanName": "CIGNA PPO",
+            "HospitalName": "Washington Hospital",
+            "Payer": "CIGNA",
+            "AdmissionType": "Outpatient",
+            "HospitalId": "19",
+            "AncilliaryService": [
+                "Basic EKG",
+                "Stress Test",
+                "Echocardiography",
+                "Full Spectrum Cardiac Rhythm Event Monitoring",
+                "SPECT Myocardial Perfusion Imaging"
+            ]
+        },
+        {
+            "Modifiers": "Test",
+            "Location": {
+                "type": "Point",
+                "coordinates": [
+                    37.557030,
+                    -121.980340
+                ]
+            },
+            "Address": {
+                "Country": "USA",
+                "PostalCode": "94538",
+                "StreetAddress": "2000 Mowry Ave",
+                "City": "Fremont",
+                "StateProvince": "CA"
+            },
+            "StandardChargeContractingMethod": "case rate",
+            "StandardChargeWithoutInsuranceWithDiscounts": "$ 3442",
+            "StandardChargeWithInsurancePercentage": "$ 1231",
+            "StandardChargeWithInsurance": "$ 1890",
+            "MedicalCodeTypeCode": "CPT",
+            "StandardChargeWithoutInsurance": "$ 234",
+            "DrugUnitOfMeasurement": "22",
+            "DrugTypeOfMeasurement": "GR",
+            "Description": "Cardiology",
+            "LastUpdatedDate": null,
+            "Rating": 2.4,
+            "Minimum": "$ 321",
+            "MedicalCode": "92920",
+            "BillingClass": "Facility",
+            "PlanName": "CIGNA HMO",
+            "HospitalName": "Washington Hospital",
+            "Payer": "CIGNA",
+            "AdmissionType": "Outpatient",
+            "HospitalId": "20",
+            "AncilliaryService": [
+                "Basic EKG",
+                "Stress Test",
+                "Echocardiography",
+                "Full Spectrum Cardiac Rhythm Event Monitoring",
+                "SPECT Myocardial Perfusion Imaging"
+            ]
+        },
+        {
+            "Modifiers": "Test",
+            "Location": {
+                "type": "Point",
+                "coordinates": [
+                    37.557030,
+                    -121.980340
+                ]
+            },
+            "Address": {
+                "Country": "USA",
+                "PostalCode": "94538",
+                "StreetAddress": "2000 Mowry Ave",
+                "City": "Fremont",
+                "StateProvince": "CA"
+            },
+            "StandardChargeContractingMethod": "fee schedule",
+            "StandardChargeWithoutInsuranceWithDiscounts": "$ 5000",
+            "StandardChargeWithInsurancePercentage": "$ 3345",
+            "StandardChargeWithInsurance": "$ 4445",
+            "MedicalCodeTypeCode": "CPT",
+            "StandardChargeWithoutInsurance": "$ 4563",
+            "DrugUnitOfMeasurement": "22",
+            "DrugTypeOfMeasurement": "GR",
+            "Description": "Total knee replacement",
+            "LastUpdatedDate": null,
+            "Rating": 4.5,
+            "Minimum": "$ 1000",
+            "MedicalCode": "27445",
+            "BillingClass": "Facility",
+            "PlanName": "Anthem PPO",
+            "HospitalName": "Washington Hospital",
+            "Payer": "Anthem",
+            "AdmissionType": "Outpatient",
+            "HospitalId": "21",
+            "AncilliaryService": [
+                "Electrocardiography",
+                "Prothrombin Time Test (PT)",
+                "Erythrocyte Sedimentation Rate (ESR)",
+                "Albumin (Blood) Test"
+            ]
+        },
+        {
+            "Modifiers": "Test",
+            "Location": {
+                "type": "Point",
+                "coordinates": [
+                    37.557030,
+                    -121.980340
+                ]
+            },
+            "Address": {
+                "Country": "USA",
+                "PostalCode": "94538",
+                "StreetAddress": "2000 Mowry Ave",
+                "City": "Fremont",
+                "StateProvince": "CA"
+            },
+            "StandardChargeContractingMethod": "fee schedule",
+            "StandardChargeWithoutInsuranceWithDiscounts": "$ 3000",
+            "StandardChargeWithInsurancePercentage": "$ 2345",
+            "StandardChargeWithInsurance": "$ 5445",
+            "MedicalCodeTypeCode": "CPT",
+            "StandardChargeWithoutInsurance": "$ 4563",
+            "DrugUnitOfMeasurement": "22",
+            "DrugTypeOfMeasurement": "GR",
+            "Description": "Total knee replacement",
+            "LastUpdatedDate": null,
+            "Rating": 4.5,
+            "Minimum": "$ 1000",
+            "MedicalCode": "27445",
+            "BillingClass": "Facility",
+            "PlanName": "BSC Platinum PPO",
+            "HospitalName": "Washington Hospital",
+            "Payer": "Blue Shield of California",
+            "AdmissionType": "Outpatient",
+            "HospitalId": "22",
+            "AncilliaryService": [
+                "Electrocardiography",
+                "Prothrombin Time Test (PT)",
+                "Erythrocyte Sedimentation Rate (ESR)",
+                "Albumin (Blood) Test"
+            ]
+        },{
+            "Modifiers": "Test",
+            "Location": {
+                "type": "Point",
+                "coordinates": [
+                    53.972649,
+                    -122.769890
+                ]
+            },
+            "Address": {
+                "Country": "USA",
+                "PostalCode": "94040",
+                "StreetAddress": "2500 Grant Rd",
+                "City": "Mountain View",
+                "StateProvince": "CA"
+            },
+            "StandardChargeContractingMethod": "capitation",
+            "StandardChargeWithoutInsuranceWithDiscounts": "$ 1000",
+            "StandardChargeWithInsurancePercentage": "10%",
+            "StandardChargeWithInsurance": "$ 900",
+            "MedicalCodeTypeCode": "CPT",
+            "StandardChargeWithoutInsurance": "$1000",
+            "DrugUnitOfMeasurement": "22",
+            "DrugTypeOfMeasurement": "GR",
+            "Description": "Diabetes",
+            "LastUpdatedDate": "1/1/2023",
+            "Rating": 3.5,
+            "Minimum": "$ 1000",
+            "MedicalCode": "92014",
+            "BillingClass": "Facility",
+            "PlanName": "Anthem PPO",
+            "HospitalName": "El Camino Hospital",
+            "Payer": "Anthem",
+            "AdmissionType": "Inpatient",
+            "HospitalId": "23",
+            "AncilliaryService": [
+                "Fasting Blood Sugar Test",
+                "Glucose Tolerance Test",
+                "Glucose Screening Test"
+            ]
+        },
+        {
+            "Modifiers": "Test",
+            "Location": {
+                "type": "Point",
+                "coordinates": [
+                    53.972649,
+                    -122.769890
+                ]
+            },
+            "Address": {
+                "Country": "USA",
+                "PostalCode": "94040",
+                "StreetAddress": "2500 Grant Rd",
+                "City": "Mountain View",
+                "StateProvince": "CA"
+            },
+            "StandardChargeContractingMethod": "capitation",
+            "StandardChargeWithoutInsuranceWithDiscounts": "$ 789",
+            "StandardChargeWithInsurancePercentage": "19%",
+            "StandardChargeWithInsurance": "$ 1200",
+            "MedicalCodeTypeCode": "CPT",
+            "StandardChargeWithoutInsurance": "$ 1234",
+            "DrugUnitOfMeasurement": "22",
+            "DrugTypeOfMeasurement": "GR",
+            "Description": "Diabetes",
+            "LastUpdatedDate": "4/1/2023",
+            "Rating": 1.5,
+            "Minimum": "$ 1000",
+            "MedicalCode": "92014",
+            "BillingClass": "Facility",
+            "PlanName": "CIGNA PPO",
+            "HospitalName": "Stanford Medical",
+            "Payer": "CIGNA",
+            "AdmissionType": "Inpatient",
+            "HospitalId": "24",
+            "AncilliaryService": [
+                "Fasting Blood Sugar Test",
+                "Glucose Tolerance Test",
+                "Glucose Screening Test"
+            ]
+        },
+        {
+            "Modifiers": "Test",
+            "Location": {
+                "type": "Point",
+                "coordinates": [
+                    53.972649,
+                    -122.769890
+                ]
+            },
+            "Address": {
+                "Country": "USA",
+                "PostalCode": "94040",
+                "StreetAddress": "2500 Grant Rd",
+                "City": "Mountain View",
+                "StateProvince": "CA"
+            },
+            "StandardChargeContractingMethod": "capitation",
+            "StandardChargeWithoutInsuranceWithDiscounts": "$ 567",
+            "StandardChargeWithInsurancePercentage": "7%",
+            "StandardChargeWithInsurance": "$ 454",
+            "MedicalCodeTypeCode": "CPT",
+            "StandardChargeWithoutInsurance": "$ 345",
+            "DrugUnitOfMeasurement": "22",
+            "DrugTypeOfMeasurement": "GR",
+            "Description": "Diabetes",
+            "LastUpdatedDate": "4/9/2023",
+            "Rating": 1.5,
+            "Minimum": "$ 1000",
+            "MedicalCode": "92014",
+            "BillingClass": "Facility",
+            "PlanName": "Platinum PPO",
+            "HospitalName": "El Camino Hospital",
+            "Payer": "Blue Shield of California",
+            "AdmissionType": "Inpatient",
+            "HospitalId": "25",
+            "AncilliaryService": [
+                "Fasting Blood Sugar Test",
+                "Glucose Tolerance Test",
+                "Glucose Screening Test"
+            ]
+        },
+        {
+            "Modifiers": "Test",
+            "Location": {
+                "type": "Point",
+                "coordinates": [
+                    53.972649,
+                    -122.769890
+                ]
+            },
+            "Address": {
+                "Country": "USA",
+                "PostalCode": "94040",
+                "StreetAddress": "2500 Grant Rd",
+                "City": "Mountain View",
+                "StateProvince": "CA"
+            },
+            "StandardChargeContractingMethod": "capitation",
+            "StandardChargeWithoutInsuranceWithDiscounts": "$ 900",
+            "StandardChargeWithInsurancePercentage": "19%",
+            "StandardChargeWithInsurance": "$ 2000",
+            "MedicalCodeTypeCode": "CPT",
+            "StandardChargeWithoutInsurance": "$ 3421",
+            "DrugUnitOfMeasurement": "22",
+            "DrugTypeOfMeasurement": "GR",
+            "Description": "Diabetes",
+            "LastUpdatedDate": "4/1/2023",
+            "Rating": 1.5,
+            "Minimum": "$ 1000",
+            "MedicalCode": "92014",
+            "BillingClass": "Facility",
+            "PlanName": "Kaiser HMO",
+            "HospitalName": "El Camino Hospital",
+            "Payer": "Kaiser",
+            "AdmissionType": "Inpatient",
+            "HospitalId": "26",
+            "AncilliaryService": [
+                "Fasting Blood Sugar Test",
+                "Glucose Tolerance Test",
+                "Glucose Screening Test"
+            ]
+        },
+        {
+            "Modifiers": "Test",
+            "Location": {
+                "type": "Point",
+                "coordinates": [
+                    53.972649,
+                    -122.769890
+                ]
+            },
+            "Address": {
+                "Country": "USA",
+                "PostalCode": "94040",
+                "StreetAddress": "2500 Grant Rd",
+                "City": "Mountain View",
+                "StateProvince": "CA"
+            },
+            "StandardChargeContractingMethod": "case rate",
+            "StandardChargeWithoutInsuranceWithDiscounts": "$ 1133",
+            "StandardChargeWithInsurancePercentage": "$ 2233",
+            "StandardChargeWithInsurance": "$ 1212",
+            "MedicalCodeTypeCode": "CPT",
+            "StandardChargeWithoutInsurance": "$ 222",
+            "DrugUnitOfMeasurement": "22",
+            "DrugTypeOfMeasurement": "GR",
+            "Description": "Cardiology",
+            "LastUpdatedDate": null,
+            "Rating": 2.4,
+            "Minimum": "$ 222",
+            "MedicalCode": "92920",
+            "BillingClass": "Facility",
+            "PlanName": "Platinum PPO",
+            "HospitalName": "El Camino Hospital",
+            "Payer": "Blue Shield of California",
+            "AdmissionType": "Outpatient",
+            "HospitalId": "27",
+            "AncilliaryService": [
+                "Fasting Blood Sugar Test",
+                "Glucose Tolerance Test",
+                "Glucose Screening Test"
+            ]
+        }, {
+            "Modifiers": "Test",
+            "Location": {
+                "type": "Point",
+                "coordinates": [
+                    53.972649,
+                    -122.769890
+                ]
+            },
+            "Address": {
+                "Country": "USA",
+                "PostalCode": "94040",
+                "StreetAddress": "2500 Grant Rd",
+                "City": "Mountain View",
+                "StateProvince": "CA"
+            },
+            "StandardChargeContractingMethod": "case rate",
+            "StandardChargeWithoutInsuranceWithDiscounts": "$ 1133",
+            "StandardChargeWithInsurancePercentage": "$ 2233",
+            "StandardChargeWithInsurance": "$ 1212",
+            "MedicalCodeTypeCode": "CPT",
+            "StandardChargeWithoutInsurance": "$ 222",
+            "DrugUnitOfMeasurement": "22",
+            "DrugTypeOfMeasurement": "GR",
+            "Description": "Cardiology",
+            "LastUpdatedDate": null,
+            "Rating": 2.4,
+            "Minimum": "$ 222",
+            "MedicalCode": "92920",
+            "BillingClass": "Facility",
+            "PlanName": "Aetna HMO",
+            "HospitalName": "El Camino Hospital",
+            "Payer": "Aetna",
+            "AdmissionType": "Outpatient",
+            "HospitalId": "28",
+            "AncilliaryService": [
+                "Fasting Blood Sugar Test",
+                "Glucose Tolerance Test",
+                "Glucose Screening Test"
+            ]
+        },{
+            "Modifiers": "Test",
+            "Location": {
+                "type": "Point",
+                "coordinates": [
+                    53.972649,
+                    -122.769890
+                ]
+            },
+            "Address": {
+                "Country": "USA",
+                "PostalCode": "94040",
+                "StreetAddress": "2500 Grant Rd",
+                "City": "Mountain View",
+                "StateProvince": "CA"
+            },
+            "StandardChargeContractingMethod": "case rate",
+            "StandardChargeWithoutInsuranceWithDiscounts": "$ 1300",
+            "StandardChargeWithInsurancePercentage": "$ 1633",
+            "StandardChargeWithInsurance": "$ 1245",
+            "MedicalCodeTypeCode": "CPT",
+            "StandardChargeWithoutInsurance": "$ 873",
+            "DrugUnitOfMeasurement": "22",
+            "DrugTypeOfMeasurement": "GR",
+            "Description": "Cardiology",
+            "LastUpdatedDate": null,
+            "Rating": 2.4,
+            "Minimum": "$ 321",
+            "MedicalCode": "92920",
+            "BillingClass": "Facility",
+            "PlanName": "Aetna HMO",
+            "HospitalName": "El Camino Hospital",
+            "Payer": "Aetna",
+            "AdmissionType": "Outpatient",
+            "HospitalId": "29",
+            "AncilliaryService": [
+                "Basic EKG",
+                "Stress Test",
+                "Echocardiography",
+                "Full Spectrum Cardiac Rhythm Event Monitoring",
+                "SPECT Myocardial Perfusion Imaging"
+            ]
+        },
+        {
+            "Modifiers": "Test",
+            "Location": {
+                "type": "Point",
+                "coordinates": [
+                    53.972649,
+                    -122.769890
+                ]
+            },
+            "Address": {
+                "Country": "USA",
+                "PostalCode": "94040",
+                "StreetAddress": "2500 Grant Rd",
+                "City": "Mountain View",
+                "StateProvince": "CA"
+            },
+            "StandardChargeContractingMethod": "case rate",
+            "StandardChargeWithoutInsuranceWithDiscounts": "$ 3442",
+            "StandardChargeWithInsurancePercentage": "$ 1231",
+            "StandardChargeWithInsurance": "$ 1890",
+            "MedicalCodeTypeCode": "CPT",
+            "StandardChargeWithoutInsurance": "$ 234",
+            "DrugUnitOfMeasurement": "22",
+            "DrugTypeOfMeasurement": "GR",
+            "Description": "Cardiology",
+            "LastUpdatedDate": null,
+            "Rating": 2.4,
+            "Minimum": "$ 321",
+            "MedicalCode": "92920",
+            "BillingClass": "Facility",
+            "PlanName": "CIGNA PPO",
+            "HospitalName": "El Camino Hospital",
+            "Payer": "CIGNA",
+            "AdmissionType": "Outpatient",
+            "HospitalId": "30",
+            "AncilliaryService": [
+                "Basic EKG",
+                "Stress Test",
+                "Echocardiography",
+                "Full Spectrum Cardiac Rhythm Event Monitoring",
+                "SPECT Myocardial Perfusion Imaging"
+            ]
+        },
+        {
+            "Modifiers": "Test",
+            "Location": {
+                "type": "Point",
+                "coordinates": [
+                    53.972649,
+                    -122.769890
+                ]
+            },
+            "Address": {
+                "Country": "USA",
+                "PostalCode": "94040",
+                "StreetAddress": "2500 Grant Rd",
+                "City": "Mountain View",
+                "StateProvince": "CA"
+            },
+            "StandardChargeContractingMethod": "case rate",
+            "StandardChargeWithoutInsuranceWithDiscounts": "$ 3442",
+            "StandardChargeWithInsurancePercentage": "$ 1231",
+            "StandardChargeWithInsurance": "$ 1890",
+            "MedicalCodeTypeCode": "CPT",
+            "StandardChargeWithoutInsurance": "$ 234",
+            "DrugUnitOfMeasurement": "22",
+            "DrugTypeOfMeasurement": "GR",
+            "Description": "Cardiology",
+            "LastUpdatedDate": null,
+            "Rating": 2.4,
+            "Minimum": "$ 321",
+            "MedicalCode": "92920",
+            "BillingClass": "Facility",
+            "PlanName": "CIGNA HMO",
+            "HospitalName": "El Camino Hospital",
+            "Payer": "CIGNA",
+            "AdmissionType": "Outpatient",
+            "HospitalId": "31",
+            "AncilliaryService": [
+                "Basic EKG",
+                "Stress Test",
+                "Echocardiography",
+                "Full Spectrum Cardiac Rhythm Event Monitoring",
+                "SPECT Myocardial Perfusion Imaging"
+            ]
+        },
+        {
+            "Modifiers": "Test",
+            "Location": {
+                "type": "Point",
+                "coordinates": [
+                    53.972649,
+                    -122.769890
+                ]
+            },
+            "Address": {
+                "Country": "USA",
+                "PostalCode": "94040",
+                "StreetAddress": "2500 Grant Rd",
+                "City": "Mountain View",
+                "StateProvince": "CA"
+            },
+            "StandardChargeContractingMethod": "fee schedule",
+            "StandardChargeWithoutInsuranceWithDiscounts": "$ 2000",
+            "StandardChargeWithInsurancePercentage": "$ 3345",
+            "StandardChargeWithInsurance": "$ 4445",
+            "MedicalCodeTypeCode": "CPT",
+            "StandardChargeWithoutInsurance": "$ 4563",
+            "DrugUnitOfMeasurement": "22",
+            "DrugTypeOfMeasurement": "GR",
+            "Description": "Total knee replacement",
+            "LastUpdatedDate": null,
+            "Rating": 4.5,
+            "Minimum": "$ 1000",
+            "MedicalCode": "27445",
+            "BillingClass": "Facility",
+            "PlanName": "Anthem PPO",
+            "HospitalName": "El Camino Hospital",
+            "Payer": "Anthem",
+            "AdmissionType": "Outpatient",
+            "HospitalId": "32",
+            "AncilliaryService": [
+                "Electrocardiography",
+                "Prothrombin Time Test (PT)",
+                "Erythrocyte Sedimentation Rate (ESR)",
+                "Albumin (Blood) Test"
+            ]
+        },
+        {
+            "Modifiers": "Test",
+            "Location": {
+                "type": "Point",
+                "coordinates": [
+                    53.972649,
+                    -122.769890
+                ]
+            },
+            "Address": {
+                "Country": "USA",
+                "PostalCode": "94040",
+                "StreetAddress": "2500 Grant Rd",
+                "City": "Mountain View",
+                "StateProvince": "CA"
+            },
+            "StandardChargeContractingMethod": "fee schedule",
+            "StandardChargeWithoutInsuranceWithDiscounts": "$ 2003",
+            "StandardChargeWithInsurancePercentage": "$ 3455",
+            "StandardChargeWithInsurance": "$ 2335",
+            "MedicalCodeTypeCode": "CPT",
+            "StandardChargeWithoutInsurance": "$ 4563",
+            "DrugUnitOfMeasurement": "22",
+            "DrugTypeOfMeasurement": "GR",
+            "Description": "Total knee replacement",
+            "LastUpdatedDate": null,
+            "Rating": 4.5,
+            "Minimum": "$ 1000",
+            "MedicalCode": "27445",
+            "BillingClass": "Facility",
+            "PlanName": "BSC Platinum PPO",
+            "HospitalName": "El Camino Hospital",
+            "Payer": "Blue Shield of California",
+            "AdmissionType": "Outpatient",
+            "HospitalId": "33",
+            "AncilliaryService": [
+                "Electrocardiography",
+                "Prothrombin Time Test (PT)",
+                "Erythrocyte Sedimentation Rate (ESR)",
+                "Albumin (Blood) Test"
             ]
         }
     ]

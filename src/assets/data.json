@@ -6,7 +6,7 @@
             "Location": {
                 "type": "Point",
                 "coordinates": [
-                    -122.176230, 37.436010
+                    -122.176244, 37.4359108
                 ]
             },
             "Address": {
@@ -46,7 +46,7 @@
             "Location": {
                 "type": "Point",
                 "coordinates": [
-                    -122.176230, 37.436010
+                    -122.176244, 37.4359108
                 ]
             },
             "Address": {
@@ -86,7 +86,7 @@
             "Location": {
                 "type": "Point",
                 "coordinates": [
-                    -122.176230, 37.436010
+                    -122.176244, 37.4359108
                 ]
             },
             "Address": {
@@ -97,9 +97,9 @@
                 "StateProvince": "CA"
             },
             "StandardChargeContractingMethod": "capitation",
-            "StandardChargeWithoutInsuranceWithDiscounts": "$ 567",
+            "StandardChargeWithoutInsuranceWithDiscounts": "$ 878",
             "StandardChargeWithInsurancePercentage": "7%",
-            "StandardChargeWithInsurance": "$ 454",
+            "StandardChargeWithInsurance": "$ 373",
             "MedicalCodeTypeCode": "CPT",
             "StandardChargeWithoutInsurance": "$ 345",
             "DrugUnitOfMeasurement": "22",
@@ -126,7 +126,7 @@
             "Location": {
                 "type": "Point",
                 "coordinates": [
-                    -122.176230, 37.436010
+                    -122.176244, 37.4359108
                 ]
             },
             "Address": {
@@ -150,9 +150,9 @@
             "Minimum": 1000,
             "MedicalCode": "92014",
             "BillingClass": "Facility",
-            "PlanName": "Kaiser HMO",
-            "HospitalName": "hospital",
-            "Payer": "Kaiser",
+            "PlanName": "Blushield HMO",
+            "HospitalName": "Stanford Medical",
+            "Payer": "Blue Shield of California",
             "AdmissionType": "inpatient",
             "HospitalId": "4",
             "AncilliaryService": [
@@ -166,7 +166,7 @@
             "Location": {
                 "type": "Point",
                 "coordinates": [
-                    -122.176230, 37.436010
+                    -122.176244, 37.4359108
                 ]
             },
             "Address": {
@@ -189,23 +189,25 @@
             "Rating": 2.4,
             "Minimum": 1000,
             "MedicalCode": "92920",
-            "BillingClass": "Facility",
+            "BillingClass": "Professional",
             "PlanName": "Platinum PPO",
             "HospitalName": "Stanford Medical",
             "Payer": "Blue Shield of California",
             "AdmissionType": "outpatient",
             "HospitalId": "5",
             "AncilliaryService": [
-                "Fasting Blood Sugar Test",
-                "Glucose Tolerance Test",
-                "Glucose Screening Test"
+                "Basic EKG",
+                "Stress Test",
+                "Echocardiography",
+                "Full Spectrum Cardiac Rhythm Event Monitoring",
+                "SPECT Myocardial Perfusion Imaging"
             ]
         }, {
             "Modifiers": "Test",
             "Location": {
                 "type": "Point",
                 "coordinates": [
-                    -122.176230, 37.436010
+                    -122.176244, 37.4359108
                 ]
             },
             "Address": {
@@ -235,16 +237,18 @@
             "AdmissionType": "outpatient",
             "HospitalId": "6",
             "AncilliaryService": [
-                "Fasting Blood Sugar Test",
-                "Glucose Tolerance Test",
-                "Glucose Screening Test"
+                "Basic EKG",
+                "Stress Test",
+                "Echocardiography",
+                "Full Spectrum Cardiac Rhythm Event Monitoring",
+                "SPECT Myocardial Perfusion Imaging"
             ]
         },{
             "Modifiers": "Test",
             "Location": {
                 "type": "Point",
                 "coordinates": [
-                    -122.176230, 37.436010
+                    -122.176244, 37.4359108
                 ]
             },
             "Address": {
@@ -268,9 +272,9 @@
             "Minimum": 1000,
             "MedicalCode": "92920",
             "BillingClass": "Facility",
-            "PlanName": "Aetna HMO",
+            "PlanName": "Blushield HMO",
             "HospitalName": "Stanford Medical",
-            "Payer": "Aetna",
+            "Payer": "Blue Shield of California",
             "AdmissionType": "outpatient",
             "HospitalId": "7",
             "AncilliaryService": [
@@ -286,7 +290,7 @@
             "Location": {
                 "type": "Point",
                 "coordinates": [
-                    -122.176230, 37.436010
+                    -122.176244, 37.4359108
                 ]
             },
             "Address": {
@@ -309,7 +313,7 @@
             "Rating": 2.4,
             "Minimum": 1000,
             "MedicalCode": "92920",
-            "BillingClass": "Facility",
+            "BillingClass": "Professional",
             "PlanName": "CIGNA PPO",
             "HospitalName": "Stanford Medical",
             "Payer": "CIGNA",
@@ -328,7 +332,7 @@
             "Location": {
                 "type": "Point",
                 "coordinates": [
-                    -122.176230, 37.436010
+                    -122.176244, 37.4359108
                 ]
             },
             "Address": {
@@ -370,7 +374,7 @@
             "Location": {
                 "type": "Point",
                 "coordinates": [
-                    -122.176230, 37.436010
+                    -122.176244, 37.4359108
                 ]
             },
             "Address": {
@@ -411,7 +415,7 @@
             "Location": {
                 "type": "Point",
                 "coordinates": [
-                    -122.176230, 37.436010
+                    -122.176244, 37.4359108
                 ]
             },
             "Address": {
@@ -452,7 +456,7 @@
             "Location": {
                 "type": "Point",
                 "coordinates": [
-                    -122.176230, 37.436010
+                    -121.980340,37.557030
                 ]
             },
             "Address": {
@@ -643,9 +647,11 @@
             "AdmissionType": "outpatient",
             "HospitalId": "16",
             "AncilliaryService": [
-                "Fasting Blood Sugar Test",
-                "Glucose Tolerance Test",
-                "Glucose Screening Test"
+                "Basic EKG",
+                "Stress Test",
+                "Echocardiography",
+                "Full Spectrum Cardiac Rhythm Event Monitoring",
+                "SPECT Myocardial Perfusion Imaging"
             ]
         }, {
             "Modifiers": "Test",
@@ -682,9 +688,11 @@
             "AdmissionType": "outpatient",
             "HospitalId": "17",
             "AncilliaryService": [
-                "Fasting Blood Sugar Test",
-                "Glucose Tolerance Test",
-                "Glucose Screening Test"
+                "Basic EKG",
+                "Stress Test",
+                "Echocardiography",
+                "Full Spectrum Cardiac Rhythm Event Monitoring",
+                "SPECT Myocardial Perfusion Imaging"
             ]
         },{
             "Modifiers": "Test",
@@ -715,9 +723,9 @@
             "Minimum": 1000,
             "MedicalCode": "92920",
             "BillingClass": "Facility",
-            "PlanName": "Aetna HMO",
+            "PlanName": "GOLD HMO",
             "HospitalName": "Washington Hospital",
-            "Payer": "Aetna",
+            "Payer": "Blue Shield of California",
             "AdmissionType": "outpatient",
             "HospitalId": "18",
             "AncilliaryService": [
@@ -899,7 +907,7 @@
                 "type": "Point",
                 "coordinates": [
                     
-                    -122.769890,53.972649
+                    -122.079550,37.369350
                 ]
             },
             "Address": {
@@ -939,7 +947,7 @@
             "Location": {
                 "type": "Point",
                 "coordinates": [
-                    -122.769890,53.972649
+                    -122.079550,37.369350
                 ]
             },
             "Address": {
@@ -979,7 +987,7 @@
             "Location": {
                 "type": "Point",
                 "coordinates": [
-                    -122.769890,53.972649
+                    -122.079550,37.369350
                 ]
             },
             "Address": {
@@ -1019,7 +1027,7 @@
             "Location": {
                 "type": "Point",
                 "coordinates": [
-                    -122.769890,53.972649
+                    -122.079550,37.369350
                 ]
             },
             "Address": {
@@ -1059,7 +1067,7 @@
             "Location": {
                 "type": "Point",
                 "coordinates": [
-                    -122.769890,53.972649
+                    -122.079550,37.369350
                 ]
             },
             "Address": {
@@ -1089,16 +1097,18 @@
             "AdmissionType": "outpatient",
             "HospitalId": "27",
             "AncilliaryService": [
-                "Fasting Blood Sugar Test",
-                "Glucose Tolerance Test",
-                "Glucose Screening Test"
+                "Basic EKG",
+                "Stress Test",
+                "Echocardiography",
+                "Full Spectrum Cardiac Rhythm Event Monitoring",
+                "SPECT Myocardial Perfusion Imaging"
             ]
         }, {
             "Modifiers": "Test",
             "Location": {
                 "type": "Point",
                 "coordinates": [
-                    -122.769890,53.972649
+                    -122.079550,37.369350
                 ]
             },
             "Address": {
@@ -1128,16 +1138,18 @@
             "AdmissionType": "outpatient",
             "HospitalId": "28",
             "AncilliaryService": [
-                "Fasting Blood Sugar Test",
-                "Glucose Tolerance Test",
-                "Glucose Screening Test"
+                "Basic EKG",
+                "Stress Test",
+                "Echocardiography",
+                "Full Spectrum Cardiac Rhythm Event Monitoring",
+                "SPECT Myocardial Perfusion Imaging"
             ]
         },{
             "Modifiers": "Test",
             "Location": {
                 "type": "Point",
                 "coordinates": [
-                    -122.769890,53.972649
+                    -122.079550,37.369350
                 ]
             },
             "Address": {
@@ -1161,9 +1173,9 @@
             "Minimum": 1000,
             "MedicalCode": "92920",
             "BillingClass": "Facility",
-            "PlanName": "Aetna HMO",
+            "PlanName": "GOLD HMO",
             "HospitalName": "El Camino Hospital",
-            "Payer": "Aetna",
+            "Payer": "Blue Shield of California",
             "AdmissionType": "outpatient",
             "HospitalId": "29",
             "AncilliaryService": [
@@ -1179,7 +1191,7 @@
             "Location": {
                 "type": "Point",
                 "coordinates": [
-                    -122.769890,53.972649
+                    -122.079550,37.369350
                 ]
             },
             "Address": {
@@ -1221,7 +1233,7 @@
             "Location": {
                 "type": "Point",
                 "coordinates": [
-                    -122.769890,53.972649
+                    -122.079550,37.369350
                 ]
             },
             "Address": {
@@ -1263,7 +1275,7 @@
             "Location": {
                 "type": "Point",
                 "coordinates": [
-                    -122.769890,53.972649
+                    -122.079550,37.369350
                 ]
             },
             "Address": {
@@ -1304,7 +1316,7 @@
             "Location": {
                 "type": "Point",
                 "coordinates": [
-                    -122.769890,53.972649
+                    -122.079550,37.369350
                 ]
             },
             "Address": {

@@ -2,7 +2,7 @@ import { Component, Inject, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { HospitalService } from '../services/hospital.service';
-import { SessionStorageService } from 'ngx-webstorage';
+//import { SessionStorageService } from 'ngx-webstorage';
 
 @Component({
   selector: 'app-hospitaldata',
@@ -51,7 +51,7 @@ export class HospitaldataComponent implements OnInit {
     private _fb: FormBuilder,
     private hospitalService: HospitalService,
     private _dialogRef: MatDialogRef<HospitaldataComponent>,
-    private sessionStorageService:SessionStorageService,
+    //private sessionStorageService:SessionStorageService,
     @Inject(MAT_DIALOG_DATA) public data: any,
   ) {
     this.empForm = this._fb.group({
@@ -78,28 +78,28 @@ export class HospitaldataComponent implements OnInit {
 
       sessionStorage.setItem('hospitalFormData',this.empForm.value);
       this.medicalCodes = this.empForm.get("medicalCode")?.value;
-      sessionStorage.setItem('medicalCode',this.medicalCodes);
+    //  sessionStorage.setItem('medicalCode',this.medicalCodes);
 
       this.billing = this.empForm.get("billingClass")?.value;
-      sessionStorage.setItem('billingClass',this.billing);
+      //sessionStorage.setItem('billingClass',this.billing);
 
       this.plan = this.empForm.get("planName")?.value;
-      sessionStorage.setItem('planName',this.plan);
+      //sessionStorage.setItem('planName',this.plan);
 
       this.insurance = this.empForm.get("payer")?.value;
-      sessionStorage.setItem('payer',this.insurance);
+     // sessionStorage.setItem('payer',this.insurance);
 
       this.contracting = this.empForm.get("contractingType")?.value;
-      sessionStorage.setItem('contractingType',this.contracting);
+     // sessionStorage.setItem('contractingType',this.contracting);
 
       this.admission = this.empForm.get("admissionType")?.value;
-      sessionStorage.setItem('admissionType',this.admission);
+     // sessionStorage.setItem('admissionType',this.admission);
 
       this.insCost = this.empForm.get("insuranceCost")?.value;
-      sessionStorage.setItem('insuranceCost',this.insCost);
+      //sessionStorage.setItem('insuranceCost',this.insCost);
 
       this.insCost = this.empForm.get("insuranceCost")?.value;
-      sessionStorage.setItem('insuranceCost',this.insCost);
+     // sessionStorage.setItem('insuranceCost',this.insCost);
 
       console.log(this.empForm.value);
 
@@ -109,13 +109,13 @@ export class HospitaldataComponent implements OnInit {
       this._dialogRef.close(true);
      
       this.medicalCodes = this.empForm.get("medicalCode")?.value;
-      sessionStorage.setItem('medicalCode',this.medicalCodes);
+     // sessionStorage.setItem('medicalCode',this.medicalCodes);
 
       this.billing = this.empForm.get("billingClass")?.value;
-      sessionStorage.setItem('billingClass',this.billing);
+      //sessionStorage.setItem('billingClass',this.billing);
 
       this.plan = this.empForm.get("plan")?.value;
-      sessionStorage.setItem('planName',this.plan);
+      //sessionStorage.setItem('planName',this.plan);
     }
 
 

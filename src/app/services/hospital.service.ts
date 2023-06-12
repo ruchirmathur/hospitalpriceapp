@@ -15,7 +15,7 @@ export class HospitalService {
     
     request=data;
     console.log("post"+request);
-    return this._http.post('http://localhost:8082/api/csv/create', request);
+    return this._http.post('https://hospitaldataapim.azure-api.net/api/csv/create/api/csv/create', request);
   }
 
   updateEmployee(id: number, data: any): Observable<any> {

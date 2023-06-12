@@ -1,1 +1,241 @@
 
+{
+    "hospitalName":"hospital",
+    "value": [
+        {
+            "Modifiers": "Test",
+            "Location": {
+                "type": "Point",
+                "coordinates": [
+                    34.99,
+                    -1223
+                ]
+            },
+            "Address": {
+                "Country": "USA",
+                "PostalCode": "94538",
+                "StreetAddress": "2000 Mowry Avenue",
+                "City": "Fremont",
+                "StateProvince": "CA"
+            },
+            "StandardChargeContractingMethod": "Test",
+            "StandardChargeWithoutInsuranceWithDiscounts": "1133",
+            "StandardChargeWithInsurancePercentage": "2233",
+            "StandardChargeWithInsurance": "1212",
+            "MedicalCodeTypeCode": "CPT",
+            "StandardChargeWithoutInsurance": "222",
+            "DrugUnitOfMeasurement": "22",
+            "DrugTypeOfMeasurement": "GR",
+            "Description": "Diabetes",
+            "LastUpdatedDate": null,
+            "Rating": 222,
+            "Minimum": 2222,
+            "MedicalCode": "646464",
+            "BillingClass": "Facility",
+            "PlanName": "Anthem",
+            "HospitalName": "hospital",
+            "Payer": "Anthem",
+            "AdmissionType": "inpatient",
+            "HospitalId": "1",
+            "AncilliaryService": [
+                "Blood Test",
+                "Lipid Profile"
+            ]
+        },{
+            "Modifiers": "Test",
+            "Location": {
+                "type": "Point",
+                "coordinates": [
+                    34.99,
+                    -1223
+                ]
+            },
+            "Address": {
+                "Country": "USA",
+                "PostalCode": "94538",
+                "StreetAddress": "2000 Mowry Avenue",
+                "City": "Fremont",
+                "StateProvince": "CA"
+            },
+            "StandardChargeContractingMethod": "Test",
+            "StandardChargeWithoutInsuranceWithDiscounts": "1133",
+            "StandardChargeWithInsurancePercentage": "2233",
+            "StandardChargeWithInsurance": "1212",
+            "MedicalCodeTypeCode": "CPT",
+            "StandardChargeWithoutInsurance": "222",
+            "DrugUnitOfMeasurement": "22",
+            "DrugTypeOfMeasurement": "GR",
+            "Description": "Diabetes",
+            "LastUpdatedDate": null,
+            "Rating": 222,
+            "Minimum": 2222,
+            "MedicalCode": "646464",
+            "BillingClass": "Facility",
+            "PlanName": "Anthem",
+            "HospitalName": "hospital",
+            "Payer": "Anthem",
+            "AdmissionType": "inpatient",
+            "HospitalId": "2",
+            "AncilliaryService": [
+                "Blood Test",
+                "Lipid Profile"
+            ]
+        },{
+            "Modifiers": "Test",
+            "Location": {
+                "type": "Point",
+                "coordinates": [
+                    34.99,
+                    -1223
+                ]
+            },
+            "Address": {
+                "Country": "USA",
+                "PostalCode": "94538",
+                "StreetAddress": "2000 Mowry Avenue",
+                "City": "Fremont",
+                "StateProvince": "CA"
+            },
+            "StandardChargeContractingMethod": "Test",
+            "StandardChargeWithoutInsuranceWithDiscounts": "1133",
+            "StandardChargeWithInsurancePercentage": "2233",
+            "StandardChargeWithInsurance": "1212",
+            "MedicalCodeTypeCode": "CPT",
+            "StandardChargeWithoutInsurance": "222",
+            "DrugUnitOfMeasurement": "22",
+            "DrugTypeOfMeasurement": "GR",
+            "Description": "Diabetes",
+            "LastUpdatedDate": null,
+            "Rating": 222,
+            "Minimum": 2222,
+            "MedicalCode": "646464",
+            "BillingClass": "Facility",
+            "PlanName": "Anthem",
+            "HospitalName": "hospital",
+            "Payer": "Anthem",
+            "AdmissionType": "inpatient",
+            "HospitalId": "3",
+            "AncilliaryService": [
+                "Blood Test",
+                "Lipid Profile"
+            ]
+        },{
+            "Modifiers": "Test",
+            "Location": {
+                "type": "Point",
+                "coordinates": [
+                    34.99,
+                    -1223
+                ]
+            },
+            "Address": {
+                "Country": "USA",
+                "PostalCode": "94538",
+                "StreetAddress": "2000 Mowry Avenue",
+                "City": "Fremont",
+                "StateProvince": "CA"
+            },
+            "StandardChargeContractingMethod": "Test",
+            "StandardChargeWithoutInsuranceWithDiscounts": "1133",
+            "StandardChargeWithInsurancePercentage": "2233",
+            "StandardChargeWithInsurance": "1212",
+            "MedicalCodeTypeCode": "CPT",
+            "StandardChargeWithoutInsurance": "222",
+            "DrugUnitOfMeasurement": "22",
+            "DrugTypeOfMeasurement": "GR",
+            "Description": "Diabetes",
+            "LastUpdatedDate": null,
+            "Rating": 222,
+            "Minimum": 2222,
+            "MedicalCode": "646464",
+            "BillingClass": "Facility",
+            "PlanName": "Anthem",
+            "HospitalName": "hospital",
+            "Payer": "Anthem",
+            "AdmissionType": "inpatient",
+            "HospitalId": "4",
+            "AncilliaryService": [
+                "Blood Test",
+                "Lipid Profile"
+            ]
+        },{
+            "Modifiers": "Test",
+            "Location": {
+                "type": "Point",
+                "coordinates": [
+                    34.99,
+                    -1223
+                ]
+            },
+            "Address": {
+                "Country": "USA",
+                "PostalCode": "94538",
+                "StreetAddress": "2000 Mowry Avenue",
+                "City": "Fremont",
+                "StateProvince": "CA"
+            },
+            "StandardChargeContractingMethod": "Test",
+            "StandardChargeWithoutInsuranceWithDiscounts": "1133",
+            "StandardChargeWithInsurancePercentage": "2233",
+            "StandardChargeWithInsurance": "1212",
+            "MedicalCodeTypeCode": "CPT",
+            "StandardChargeWithoutInsurance": "222",
+            "DrugUnitOfMeasurement": "22",
+            "DrugTypeOfMeasurement": "GR",
+            "Description": "Diabetes",
+            "LastUpdatedDate": null,
+            "Rating": 222,
+            "Minimum": 2222,
+            "MedicalCode": "646464",
+            "BillingClass": "Facility",
+            "PlanName": "Anthem",
+            "HospitalName": "hospital",
+            "Payer": "Anthem",
+            "AdmissionType": "inpatient",
+            "HospitalId": "5",
+            "AncilliaryService": [
+                "Blood Test",
+                "Lipid Profile"
+            ]
+        },{
+            "Modifiers": "Test",
+            "Location": {
+                "type": "Point",
+                "coordinates": [
+                    34.99,
+                    -1223
+                ]
+            },
+            "Address": {
+                "Country": "USA",
+                "PostalCode": "94538",
+                "StreetAddress": "2000 Mowry Avenue",
+                "City": "Fremont",
+                "StateProvince": "CA"
+            },
+            "StandardChargeContractingMethod": "Test",
+            "StandardChargeWithoutInsuranceWithDiscounts": "1133",
+            "StandardChargeWithInsurancePercentage": "2233",
+            "StandardChargeWithInsurance": "1212",
+            "MedicalCodeTypeCode": "CPT",
+            "StandardChargeWithoutInsurance": "222",
+            "DrugUnitOfMeasurement": "22",
+            "DrugTypeOfMeasurement": "GR",
+            "Description": "Diabetes",
+            "LastUpdatedDate": null,
+            "Rating": 222,
+            "Minimum": 2222,
+            "MedicalCode": "646464",
+            "BillingClass": "Facility",
+            "PlanName": "Anthem",
+            "HospitalName": "hospital",
+            "Payer": "Anthem",
+            "AdmissionType": "inpatient",
+            "HospitalId": "6",
+            "AncilliaryService": [
+                "Blood Test",
+                "Lipid Profile"
+            ]
+        }
+    ]
+}

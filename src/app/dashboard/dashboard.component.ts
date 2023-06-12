@@ -12,7 +12,6 @@ import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
 import { HospitaldataComponent } from '../hospitaldata/hospitaldata.component';
 import { HospitalService } from '../services/hospital.service';
-import { SessionStorageService } from 'ngx-webstorage';
 
 @Component({
   selector: 'app-dashboard',
@@ -44,8 +43,7 @@ export class DashboardComponent implements OnInit {
   @ViewChild(MatSort) sort!: MatSort;
 
   constructor(private breakpointObserver: BreakpointObserver, private _formBuilder: FormBuilder,
-    private _dialog: MatDialog, private hospitalService: HospitalService, private sessionStorage:
-     SessionStorageService) {
+    private _dialog: MatDialog, private hospitalService: HospitalService) {
     this.authClient = new AuthOIDC(
       {
         environment_id: '1ca92fb8-86bf-492d-b55f-c45545517059',
@@ -186,9 +184,9 @@ export class DashboardComponent implements OnInit {
     this.licenseNumber = this.firstFormGroup.get("licenseNumberCtrl")?.value;
     this.lastUpdate = this.firstFormGroup.get("lastUpdatedCtrl")?.value;
 
-    sessionStorage.setItem('HospitalName',this.hospitalName);
-    sessionStorage.setItem('LicensenNumber',this.licenseNumber);
-    sessionStorage.setItem('LastUpdate',this.lastUpdate);
+    //sessionStorage.setItem('HospitalName',this.hospitalName);
+    //sessionStorage.setItem('LicensenNumber',this.licenseNumber);
+    //sessionStorage.setItem('LastUpdate',this.lastUpdate);
   }
   saveHospitalLocationData(data:any) {
     this.streetAddress = this.secondFormGroup.get("streetAddressCtrl")?.value;
@@ -196,9 +194,9 @@ export class DashboardComponent implements OnInit {
     this.zipCode = this.secondFormGroup.get("postalCtrl")?.value;
     this.state = this.secondFormGroup.get("stateCtrl")?.value;
 
-    sessionStorage.setItem('StreetAddress',this.streetAddress);
-    sessionStorage.setItem('City',this.city);
-    sessionStorage.setItem('PostalCode',this.zipCode);
-    sessionStorage.setItem('StateProvince', this.state);
+    //sessionStorage.setItem('StreetAddress',this.streetAddress);
+    //sessionStorage.setItem('City',this.city);
+    //sessionStorage.setItem('PostalCode',this.zipCode);
+    //sessionStorage.setItem('StateProvince', this.state);
   }
 }

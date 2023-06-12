@@ -1,0 +1,81 @@
+<div mat-dialog-title>
+    <h1>Hospital Pricing Form</h1>
+</div>
+<form [formGroup]="empForm" (ngSubmit)="onFormSubmit()">
+    <div mat-dialog-content class="content">
+        <div class="row">
+            <mat-form-field appearance="outline">
+                <mat-label>Medical Code</mat-label>
+                <mat-select formControlName="medicalCode">
+                    <mat-option *ngFor="let val of medicalCode" [value]="val">{{val}}
+                    </mat-option>
+                </mat-select>
+            
+            </mat-form-field>
+            <mat-form-field appearance="outline">
+                <mat-label>Billing Class</mat-label>
+                <mat-select formControlName="billingClass">
+                    <mat-option *ngFor="let val of billingClass" [value]="val">{{val}}
+                    </mat-option>
+                </mat-select>
+            
+            </mat-form-field>
+        </div>
+
+        <div class="row">
+            <mat-form-field appearance="outline">
+                <mat-label>Plan Name</mat-label>
+                <mat-select formControlName="planeName">
+                    <mat-option *ngFor="let val of planName" [value]="val">{{val}}
+                    </mat-option>
+                </mat-select>
+            </mat-form-field>
+            <mat-form-field appearance="outline">
+                <mat-label>Payer</mat-label>
+                <mat-select formControlName="payer">
+                    <mat-option *ngFor="let val of payer" [value]="val">{{val}}
+                    </mat-option>
+                </mat-select>
+            </mat-form-field>
+        </div>
+
+        <div class="row">
+            <mat-form-field appearance="outline">
+                <mat-label>Admission Type</mat-label>
+                <mat-select formControlName="admissionType">
+                    <mat-option *ngFor="let val of admissionType" [value]="val">{{val}}
+                    </mat-option>
+                </mat-select>
+            </mat-form-field>
+        </div>
+
+        <div class="row">
+            <mat-form-field appearance="outline">
+                <mat-label>Contracting Method</mat-label>
+                <mat-select formControlName="contractingType">
+                    <mat-option *ngFor="let val of contractingType" [value]="val">{{val}}
+                    </mat-option>
+                </mat-select>
+            </mat-form-field>
+            <mat-form-field appearance="outline">
+                <mat-label>Insurance Cost</mat-label>
+                <input matInput  placeholder="Ex. test@gmail.com" formControlName="insuranceCost">
+            </mat-form-field>
+        </div>
+        <div class="row">
+            <mat-form-field appearance="outline">
+                <mat-label>No insurance cost</mat-label>
+                <input matInput placeholder="Ex. 4" type="number" formControlName="noInsuranceCost">
+            </mat-form-field>
+            <mat-form-field appearance="outline">
+                <mat-label>Percentage</mat-label>
+                <input matInput placeholder="Ex. 12" type="number" formControlName="percentage">
+               
+            </mat-form-field>
+        </div>
+    </div>
+    <div mat-dialog-actions class="action">
+        <button mat-raised-button type="button" [mat-dialog-close]="false">Cancel</button>
+        <button mat-raised-button color="primary" type="submit">{{data ? 'Update': 'Save'}}</button>
+    </div>
+</form>

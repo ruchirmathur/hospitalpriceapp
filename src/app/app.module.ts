@@ -28,7 +28,6 @@ import {MatSelectModule} from '@angular/material/select';
 import { HttpClientModule } from '@angular/common/http';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatNativeDateModule } from '@angular/material/core';
-import { NgxWebstorageModule } from "ngx-webstorage";
 
 
 @NgModule({
@@ -63,8 +62,7 @@ import { NgxWebstorageModule } from "ngx-webstorage";
     MatSelectModule,
     HttpClientModule,
     MatSnackBarModule,
-    MatNativeDateModule,
-    NgxWebstorageModule.forRoot()
+    MatNativeDateModule
   ],
   providers: [],
   bootstrap: [AppComponent]

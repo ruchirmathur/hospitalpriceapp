@@ -95,9 +95,9 @@
                                 </mat-toolbar>
                                 <div class="table-container">
                                     <table mat-table [dataSource]='dataSource'>
-                                        <ng-container matColumnDef="HospitalId">
-                                            <th mat-header-cell *matHeaderCellDef mat-sort-header> ID </th>
-                                            <td mat-cell *matCellDef="let row"> {{row.HospitalId}} </td>
+                                        <ng-container matColumnDef="Description">
+                                            <th mat-header-cell *matHeaderCellDef mat-sort-header> Description </th>
+                                            <td mat-cell *matCellDef="let row"> {{row.Description}} </td>
                                         </ng-container>
 
                                         <ng-container matColumnDef="MedicalCode">
